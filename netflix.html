@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="container">
+       
+        <nav>
+            <div class="logo">
+                <a href="https://www.netflix.com" target="_blank"> <img src="logo.png"></a>
+            </div>
+            <div class="logo-face">
+                <a href="https://www.facebook.com" target="_blank"><img src="facebook.png" alt="facebook"></a>
+            </div>
+        </nav>
+        
+        <main>
+            
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <h1>Entrar</h1>
+                <div class="form-g">
+                    <input type="email" placeholder="Digite seu E-mail ou Número de telefone..." required>
+                    <input type="password" placeholder="Digite sua Senha..." required>
+                    <button>
+                        Entrar
+                    </button>
+
+                    <div class="form-footer">
+                        <label style="margin-left: 10px;" for="check">Lembre-me</label>
+                        <input type="checkbox" id="check">
+                        <p>
+                            Precisa de ajuda ?
+                        </p>
+                    </div>
+                </div>
+            </form>
+           
+            <div class="description">
+                <p>Novo para Netflix ? <a href="https://www.netflix.com" target="_blank"><strong>Inscreva-se agora.</strong></a></p>
+            </div>
+            </main>
+    </div>
+
+    <div class="divider"></div>
+    <footer class="footer-login">
+        <div class="box-footer">
+            <p>Perguntas ? Contate-nos.</p>
+            <div class="box-single">
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Centro de Ajuda</a></li>
+                    <li><a href="#">Termos de uso</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Preferências de cookies</a></li>
+                    <li><a href="#">Informações Corporativas</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
